@@ -12,5 +12,10 @@ describe('My First Test Block', () => {
 		cy.contains('type')
 	})
 
+	it('clicks the link "type"', () => {
+		cy.visit('https://example.cypress.io')
+		cy.contains('type').click()
+	})
+
 
 })
