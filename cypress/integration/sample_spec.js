@@ -7,6 +7,10 @@ describe('My First Test Block', () => {
 		cy.visit('https://example.cypress.io')
 	})
 
+	it('Finds the content "type"', () => {
+		cy.visit('https://example.cypress.io')
+		cy.contains('type')
+	})
 
 
 })
